@@ -23,7 +23,8 @@ class AppServiceProvider extends ServiceProvider
     {
         if ($this->app->environment('production')) {
             URL::forceScheme('https');
-        }        
+        }
+        
         $this->app->make(TaskScheduler::class)->register(app('Illuminate\Console\Scheduling\Schedule'));    
     }
 }
