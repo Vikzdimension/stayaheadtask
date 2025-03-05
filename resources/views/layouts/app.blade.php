@@ -10,7 +10,10 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-
+        <link rel="icon" href="{{ secure_asset('build/assets/favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" href="{{ secure_asset('build/assets/favicon.png') }}" type="image/x-icon">
+        <meta name="msapplication-TileImage" content="{{ secure_asset('build/assets/favicon.png') }}">
+        
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
