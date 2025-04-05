@@ -21,7 +21,7 @@
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_DEBUG": "true",
         "APP_URL": "https://stayaheadtask.test",
         "APP_KEY": "base64:RfmkwTGEX1tIxr4weLDnU4WjQX2t7LLrS1H5qq1hQJo=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
